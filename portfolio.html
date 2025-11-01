@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+
+  <!-- Internal CSS (only for color, background, and alignment) -->
+  <style>
+    body {
+      font-family: Arial;
+      text-align:left;
+    }
+    h1 {
+      color: darkblue;
+      text-align: center;
+    }
+    h2 {
+      color: darkblue;
+      
+    }
+    .nav{
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font: size 30px;
+    }
+    p {
+      color: black;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th {
+      background-color: lightgray;
+    }
+    footer {
+      color: darkblue;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav style="text-align: center;">
+    <a href="#about"><strong>About</strong></a> |
+    <a href="#skills"><strong>Skills</strong></a> |
+    <a href="#projects"><strong>Project</strong></a> |
+    <a href="#contact"><strong>Contact</strong></a>
+  </nav>
+
+  <hr>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <b>Sadia</b>. I am learning <i>HTML</i> and <u>CSS</u>. This is my first portfolio website.</p>
+    <p>I love coding and creating new things.</p>
+  </section>
+
+  <hr>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic JavaScript</li>
+      <li>Python</li>
+       <li>Database</li>
+        <li>Communication skills</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+      <h3>Project 1: My First Webpage</h3>
+      <p>I created my first webpage using only HTML and CSS.</p>
+  </section>
+
+  <hr>
+
+  <!-- Table Example -->
+  <section>
+    <h2>My Education</h2>
+    <table style="width:80%; margin:auto;">
+      <tr>
+        <th>Year</th>
+        <th>Class</th>
+        <th>School/Colg/Uni</th>
+        <th>Marks/CGPA</th>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Matric</td>
+        <td>APS Azam Garrison</td>
+        <td>974</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>Intermediate</td>
+        <td>APS Azam Garrison</td>
+        <td>810</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td>Bachelors Degree</td>
+        <td>Lahore Garrison University</td>
+        <td>3.34</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <!-- Form Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+
+
+      <label>Choose file:</label>
+      <input type="file"><br><br>
+
+      <label>Your Message:</label><br>
+      <textarea rows="4" cols="30"></textarea><br><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Created by <strong>Sadia</strong></p>
+  </footer>
+
+</body>
+</html>
